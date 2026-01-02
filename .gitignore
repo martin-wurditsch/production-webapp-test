@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+target/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+application-local.yml
+
+# IDE
+.idea/
+.vscode/
+*.iml
