@@ -5,7 +5,7 @@ Spring Boot REST API für Energie-Management-System auf Edge-Geräten.
 ## Tech Stack
 
 - **Java 25** (LTS)
-- **Spring Boot 3.4.1**
+- **Spring Boot 3.5.9** (mit Java 25 Support)
 - **springdoc-openapi 2.8.15** (OpenAPI 3 / Swagger UI)
 - **Lombok 1.18.36**
 - **Maven 3.x**
