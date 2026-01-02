@@ -13,6 +13,8 @@
   - Typen: [Feature], [Fix], [Refactor], [Docs], [Test]
   - Beispiel: "[Feature] Add battery configuration API endpoint"
 - Englisch
+- keine Icons, nur Text
+- Kennzeichnen, wenn Claude den commit generiert, aber keine claude-code url in jeder commit Nachricht und keine Mail Adresse wie noreply@anthropic.com
 
 ## Nicht committen
 - node_modules/, target/
