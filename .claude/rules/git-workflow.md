@@ -10,7 +10,7 @@
 ## Commits
 - Kleine, atomare Commits (eine logische Änderung pro Commit)
 - Commit-Messages Format: [Typ] Kurzbeschreibung
-  - Typen: [Feature], [Fix], [Refactor], [Docs], [Test]
+  - Typen: [Feature], [Fix], [Refactor], [Docs], [Test], [Config]
   - Beispiel: "[Feature] Add battery configuration API endpoint"
 - Englisch
 - keine Icons, nur Text
