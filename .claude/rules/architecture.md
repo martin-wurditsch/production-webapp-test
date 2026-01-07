@@ -1,13 +1,24 @@
 # Architektur
 
-## Monorepo-Struktur
-- `/backend` und `/frontend`
-- Layered Architecture mit Feature-basierter Struktur
+## Monorepo
+```
+/
+├── backend/     # Java/Spring Boot
+├── frontend/    # React/Vite
+└── docs/
+```
 
-## Pro Feature
-**Backend**: Controller → Service → Repository + Domain Models + DTOs
-**Frontend**: Components, Services, Types, Hooks
+## Backend Layer
+```
+Controller → Service → Repository → DB
+```
 
-## Shared Code
-- `/shared` (Backend): Security, Utils, gemeinsame Entities
-- `/components/shared` (Frontend): Wiederverwendbare Components
+## Frontend Layer
+```
+Component → Hook → Service → API
+```
+
+## Kommunikation
+```
+Frontend ←REST/JSON→ Backend ←→ MariaDB
+```
